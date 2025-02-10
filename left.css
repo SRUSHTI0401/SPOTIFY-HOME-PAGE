@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px; 
+  height:100%;
+}
+
+body{
+  background-color: rgb(28, 27, 27);
+  border:none;
+  outline:none;
+  margin-top: 5%;
+} 
+
+.library-icon{
+  width:21px;
+  margin-right: 6px;
+  padding-right:3px;
+  padding-left: 4px;
+
+}
+
+p{
+  color:rgb(193, 187, 187);
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  align-content: center;
+}
+.header{
+  line-height: 1;
+  display: flex;
+  flex: 1;
+}
+.plus{
+  padding-top: 3px;
+  padding-left: 80px;
+  padding-right: 16px;
+  width:13px;
+  height: 13px;
+}
+.esymbol{
+  padding-top: 2px;
+  width: 16px;
+  height: 16px;
+}
+.suba,.subb{
+  background-color: rgb(37, 37, 37);
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+.playlist{
+  font-size: 16px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  align-content: center;
+  padding-left: 15px;
+}
+.statement{
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  font-size: 13px;
+  color: white;
+}
+.playbutton{
+  border:none;
+  color:black;
+  background-color: white;
+  border-radius: 13px;
+  margin-left: 15px;
+  margin-bottom: 13px;
+  padding-top:6px;
+  padding-bottom: 6px;
+  padding-right: 14px;
+  padding-left: 14px;
+  font-weight: 80%;
+}
